@@ -124,3 +124,125 @@ section {
   padding: var(--spacing-lg) 0;
   border-bottom: 1px solid var(--color-border);
 }
+
+.section-title {
+  font-size: 1.4rem;
+  border-bottom: 2px solid var(--color-primary);
+  padding-bottom: var(--spacing-sm);
+  margin-bottom: var(--spacing-md);
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-sm);
+  list-style: none;
+  padding: 0;
+  margin-top: var(--spacing-md);
+}
+
+.skills li {
+  background-color: var(--color-bg-alt);
+  padding: 0.3rem 0.8rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.job {
+  margin-bottom: var(--spacing-lg);
+}
+
+.job__header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  margin-bottom: var(--spacing-sm);
+}
+
+.job__title {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.job__date {
+  color: var(--color-text-light);
+  font-size: 0.9rem;
+}
+
+.projects__grid {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.project-card {
+  background-color: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  padding: var(--spacing-md);
+}
+
+.project-card h3 {
+  margin-top: 0;
+}
+
+.project-card h3 a {
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.project-card h3 a:hover {
+  color: var(--color-primary);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  margin-bottom: var(--spacing-md);
+}
+
+.form-group label {
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.form-group input,
+.form-group textarea {
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.6rem;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: 2px solid var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+.contact-form button {
+  background-color: var(--color-primary);
+  color: #ffffff;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  opacity: 0.9;
+}
+
+.footer {
+  text-align: center;
+  padding: var(--spacing-lg) var(--spacing-md);
+  color: var(--color-text-light);
+  font-size: 0.85rem;
+}
+
+.footer a {
+  color: var(--color-primary);
+}
